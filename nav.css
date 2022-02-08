@@ -1,0 +1,52 @@
+@media all and (max-width: 890px) {
+  .main-thrid-half,
+  .ph-bottom-list {
+    display: none;
+  }
+  .ph-bottom-list-two {
+    display: none;
+  }
+  .ph-bottom-list-third {
+    display: block;
+  }
+  .main-T {
+    display: none;
+  }
+
+  .top-back-ph {
+    width: 450px;
+    height: 250px;
+  }
+
+  .black-ph {
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    width: 459px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom-back-ph {
+    width: 350px;
+    height: 250px;
+  }
+  .bottom-ph-tree {
+    display: none;
+  }
+  .main-T-third {
+    display: block;
+    font-family: "Supermercado One", cursive;
+    font-size: 45px;
+  }
+  .top-ph {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

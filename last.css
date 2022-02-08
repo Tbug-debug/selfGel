@@ -1,0 +1,96 @@
+@media all and (max-width: 620px) {
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main {
+    background-color: rgba(79, 87, 97, 0);
+    padding-top: 10px;
+  }
+
+  .main-T-third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-text-third {
+    font-size: 40px;
+    font-family: "Supermercado One", cursive;
+  }
+  .main-third-menu {
+    display: none;
+  }
+  .fa-door-closed {
+    font-size: 25px;
+  }
+  .ph-bottom-list {
+    display: none;
+  }
+  .ph-bottom-list-two {
+    display: none;
+  }
+  .ph-bottom-list-third {
+    display: block;
+  }
+  .main-T {
+    display: none;
+  }
+  .top-back-ph {
+    width: 400px;
+    height: 250px;
+  }
+
+  .black-ph {
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    width: 408px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom-ph-two {
+    display: none;
+  }
+  .main-thrid {
+    border: 3px solid white;
+    display: block;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .main-texted {
+    width: 300px;
+  }
+  .door {
+    width: 300px;
+  }
+  .door-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .fa-door-open {
+    margin-top: 50px;
+  }
+  .bottom-ph-tree {
+    display: block;
+  }
+  .top-ph {
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+  .upadetbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+  }
+}
