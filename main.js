@@ -73,7 +73,7 @@ function getTime() {
     updaetTime.getSeconds() - currentTime.getSeconds() + 59
   ).padStart(2, "0");
 
-  upto.innerText = `${days}일 ${hours}시간 ${minutes}분 ${seconds}초 남았습니다.`;
+  upto.innerText = `✨ ${days}일 ${hours}시간 ${minutes}분 ${seconds}초 남았습니다 ✨`;
 }
 
 getTime();
@@ -86,12 +86,14 @@ const text = document.querySelectorAll(".uptodate");
 const showMore = info.classList;
 const showText = text[0].classList;
 const showTexte = text[1].classList;
+const showTextb = text[2].classList;
 
 function showInfo() {
   showMore.toggle("heights");
   setTimeout(() => {
     showText.toggle("views");
     showTexte.toggle("views");
+    showTextb.toggle("views");
   }, 300);
   showMore.toggle("views");
   showMore.toggle("trans");
